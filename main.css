@@ -5,52 +5,46 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 110px;
-    height: 50px;
+    margin-top: 200px;
+    height: 100px;
 
 }
-
-
+#pw {
+    width: 520px;
+    height: 60px;
+    border: 1.7px solid silver;
+    color: gray;
+    font-size: 18px;
+    margin-top: 15px;
+  
+}
+#button {
+    width: 525px;
+    height: 60px;
+    border: none;
+    background-color: #2cd659;
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+}
 .bar {
-    width: 500px;
+    width: 520px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
 }
-
 #id {
-    width: 500px;
-    height: 50px;
-    border: 1.5px solid silver;
+    width: 520px;
+    height: 60px;
+    border: 1.7px solid silver;
     color: gray;
-    font-size: 16px;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 45px;
 }
-
-#pw {
-    width: 500px;
-    height: 50px;
-    border: 1.5px solid silver;
-    color: gray;
-    font-size: 16px;
-    margin-top: 15px;
-}
-
-#button {
-    width: 510px;
-    height: 50px;
-    border: none;
-    background-color: #2cd659;
-    color: white;
-    font-size: 16px;
-    margin-top: 15px;
-}
-
 input[type="text"]:focus {
     outline: none;
 }
-
 input[type="password"]:focus {
     outline: none;
 }
